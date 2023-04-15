@@ -61,7 +61,7 @@ export default function menu() {
       animate="animate"
       className="flex flex-col justify-between"
     >
-      <motion.div variants={stagger} className="flex flex-col mx-[1rem] h-[75vh]">
+      <motion.div variants={stagger} className="flex flex-col h-[75vh]">
         <Header
           menuLink="/"
           menuIcon="/icons/close-icon.png"
@@ -70,7 +70,7 @@ export default function menu() {
         />
         <motion.div
           variants={fadeInUp}
-          className="flex flex-col justify-center h-[100%]"
+          className="flex flex-col justify-center h-[100%] mx-[1rem]"
         >
           {menuList.map((menuitem, index) => {
             return (
