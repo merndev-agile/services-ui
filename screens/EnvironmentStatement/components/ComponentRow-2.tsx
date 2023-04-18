@@ -4,7 +4,7 @@ import text from "@/utils/text";
 import { TextComponent } from "@/components/TextComponent/TextComponent";
 
 export const ComponentRow2 = () => (
-  <div className="flex flex-row justify-end items-end xsm:flex-col xsm:ml-0 xsm:w-[90%] md:w-full md:ml-0 md:flex-col md:items-start ml-[4rem] xl:mb-[140px] 2xl:mb-[140px] lg:mb-[140px] 2xl:w-[1330px] 2xl:ml-[2rem]">
+  <div className="flex flex-row justify-end items-end xsm:flex-col xsm:ml-0 xsm:w-[90%] md:w-full md:ml-0 md:flex-col md:items-start ml-[4rem] xl:mb-[140px] 2xl:mb-[140px] lg:mb-[140px] 2xl:w-[1330px] 2xl:ml-[0px]">
     <Image
       alt="Frame"
       src={"/image/Frame-3.png"}
