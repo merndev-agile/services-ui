@@ -4,13 +4,13 @@ import { ComponentRow1, ComponentRow2 } from "./components";
 export const EnvironmentStatement: React.FC = () => {
   return (
     <div
-      className="text-white flex justify-center mx-[8rem] mt-[8rem] mb-[12rem] xsm:mx-6 md:mx-[4rem]"
+      className="text-white flex justify-center mx-[4rem] mt-[80px] xsm:mx-6 md:mx-[4rem]"
     >
       <div className="flex-col self-start w-full">
-        <span className="text-8xl font-Inter font-bold uppercase xsm:text-[3.35rem] xsm:relative xsm:right-3 xxsm:!text-[3.25rem]">
+        <span className="text-[120px] font-Inter font-bold uppercase xsm:text-[45px] xxsm:!text-[45px] leading-[110px] xsm:leading-[41px] xxsm:!leading-[41px] md:text-[100px]">
           {text.environmentStatment}
         </span>
-        <div className="flex flex-col mb-10">
+        <div className="flex flex-col mb-10 mt-[60px] xsm:mt-[10px]">
           <ComponentRow1 />
           <ComponentRow2 />
         </div>

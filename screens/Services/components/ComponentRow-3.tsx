@@ -4,12 +4,12 @@ import text from "@/utils/text";
 import { TextComponent } from "../../../components/TextComponent/TextComponent";
 
 export const ComponentRow3 = () => (
-  <div className="xl:w-[80%] xl:ml-[20rem] flex flex-row justify-end items-end xsm:flex-col xsm:ml-0 xsm:w-[90%] md:w-[100%] md:flex-col md:items-start md:mt-24">
+  <div className="xl:w-full flex flex-row justify-end items-end xsm:flex-col xsm:ml-0 xsm:w-[90%] md:w-[100%] md:flex-col md:items-start md:mt-24  mb-[140px] xsm:mb-[78px] 2xl:w-full">
     <Image
       alt="Frame"
       src={"/image/Frame-2.png"}
-      width={380}
-      height={380}
+      width={410}
+      height={410}
       style={{
         height: "fit-content",
         borderRadius: 8,
@@ -19,7 +19,9 @@ export const ComponentRow3 = () => (
       heading={text.blockChainScalability}
       imageSource="/icons/blockchain-stability.png"
       paragraph={text.blockChainScalabilityParagraph}
-      classValues="items-start mt-0 xl:w-[35%] xl:ml-[40px] xl:mr-[4rem] xs:w-full xsm:mt-[3rem] md:w-full md:mt-[20px]"
+      classValues="items-start mt-0 xl:w-[410px] xl:ml-[30px] xl:h-[410px] xs:w-full xsm:mt-[3rem] md:w-full md:mt-[20px] 2xl:w-[410px] 2xl:ml-[30px] 2xl:h-[410px]"
+      textHeadingClass="xl:!mt-0 2xl:!mt-0"
+      imageClass="xl:!mt-[60px] 2xl:!mt-[60px]"
     />
   </div>
 );

@@ -9,7 +9,7 @@ export const ComponentRow1 = () => (
       paragraph={text.proofOfStakeParagraph}
       isSecondParagraphPresent
       secondParagraph={text.proofOfStakeSecondParagraph}
-      classValues="xl:w-[35%] xsm:mb-12 md:w-[45%]"
+      classValues="xl:w-[410px] xsm:mb-12 md:w-[45%] 2xl:w-[410px]"
     />
     <TextComponent
       heading={text.cloudComputing}
@@ -17,7 +17,7 @@ export const ComponentRow1 = () => (
       paragraph={text.cloudComputingParagraph}
       isSecondParagraphPresent
       secondParagraph={text.cloudComputingSecondParagraph}
-      classValues="xl:w-[40%] xl:ml-[45px] xsm:mb-12 md:ml-[45px] md:w-[45%]"
+      classValues="xl:w-[410px] xl:ml-[60px] xsm:mb-12 md:ml-[45px] md:w-[45%] ml-[30px] xsm:ml-[0px] 2xl:w-[410px] 2xl:ml-[60px]"
     />
   </div>
 );

@@ -30,14 +30,14 @@ export const Header = ({
   }, []);
 
   return (
-    <div className="font-normal flex items-center flex-row text-white justify-between mx-8 mt-2">
+    <div className="font-normal flex items-center flex-row text-white justify-between mx-[35px] h-[50px]">
       <div className="flex items-center flex-row">
         <Image
           src="/icons/headerIcon.png"
           alt="Header"
           height={40}
           width={40}
-          className="text-sm mr-4"
+          className="text-sm mr-[16px]"
         />
         <p className="font-Roboto text-base/[16px]">{text.headerTitle}</p>
       </div>

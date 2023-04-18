@@ -6,7 +6,7 @@ import text from "@/utils/text";
 export const SlidingPanel = ({ classes }: { classes?: string }) => {
   return (
     <div
-      className={`w-full h-[48px] flex flex-row items-center justify-between overflow-x-scroll font-bold mt-24 mb-16 bg-transparent ${classes}`}
+      className={`w-full h-[48px] flex flex-row items-center justify-between overflow-x-scroll font-bold mt-24 bg-transparent ${classes}`}
       style={{
         background:
           "linear-gradient(107.99deg, #FFCC97 -6.66%, #D5D9C5 94.52%)",

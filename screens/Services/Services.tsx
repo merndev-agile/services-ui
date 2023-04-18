@@ -25,10 +25,10 @@ export const Services: React.FC = () => {
       exit={{ opacity: 0 }}
       initial="initial"
       animate="animate"
-      className="text-white flex justify-center xl:mx-[8rem] xsm:mx-6 mt-10 md:mx-[4rem]"
+      className="text-white flex justify-center mx-[4rem] xl:mt-[60px] xsm:mx-6 md:mx-[4rem] xsm:mt-[60px] 2xl:mt-[60px] 2xl:mx-[8rem]" 
     >
       <motion.div variants={fadeInUp} className="flex-col self-start w-full">
-        <span className="xl: text-8xl xsm:text-6xl font-Inter font-bold">
+        <span className="text-[120px] xsm:text-[45px] font-Inter font-bold 2xl:text-[120px]">
           {text.services}
         </span>
         <div className="flex flex-col mb-10">

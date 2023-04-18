@@ -12,7 +12,7 @@ export const Accordion = ({ items }: AccordionProps) => {
         const isOpen = openQuestionIndex === index;
         return (
           <div
-            className="w-full mt-16"
+            className="w-full mt-[67px]"
             key={index}
             onClick={() => setOpenQuestionIndex(isOpen ? -1 : index)}
           >
@@ -33,9 +33,9 @@ export const Accordion = ({ items }: AccordionProps) => {
                     : "",
                 }}
               >
-                <div className="w-[80%] flex flex-row justify-between items-center xsm:w-full">
+                <div className="w-[80%] flex flex-row justify-between items-center xsm:w-full md:!items-baseline">
                   <span
-                    className={`uppercase font-medium text-2xl xsm:text-[20px] xsm:w-[80%] ${
+                    className={`uppercase font-medium text-[28px] xsm:text-[20px] xsm:w-[80%] ${
                       isOpen ? "text-black" : "text-white"
                     }`}
                   >
@@ -66,7 +66,7 @@ export const Accordion = ({ items }: AccordionProps) => {
                   animate={{
                     opacity: 1,
                   }}
-                  className="font-Roboto opacity-75 my-4 text-base/[25px] leading-[2.1rem]"
+                  className="font-Roboto opacity-75 my-4 text-[18px] leading-[2rem] w-[80%]"
                 >
                   {item.Answer}
                 </motion.p>

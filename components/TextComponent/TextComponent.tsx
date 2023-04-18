@@ -12,6 +12,8 @@ export type Props = {
   isSecondParagraphPresent?: boolean;
   secondParagraph?: string;
   classValues?: string;
+  textHeadingClass?: string;
+  imageClass?: string;
 };
 export const TextComponent = ({
   heading,
@@ -23,6 +25,8 @@ export const TextComponent = ({
   isSecondParagraphPresent,
   secondParagraph,
   classValues,
+  textHeadingClass,
+  imageClass,
 }: Props) => {
   return (
     <div
@@ -32,40 +36,30 @@ export const TextComponent = ({
       }}
     >
       <div className="flex xl:flex-row items-center w-full">
-        <span className="mt-8 uppercase font-Roboto text-2xl/[24px]">
+        <span
+          className={`mt-8 uppercase font-Roboto text-2xl/[24px] xsm:text-[24px] ${textHeadingClass}`}
+        >
           {heading}
         </span>
         {hasIconHeading && (
-          <span
-            style={{
-              borderRadius: 50,
-              borderWidth: 1,
-              width: 7,
-              padding: 5,
-              height: 7,
-              fontSize: 7,
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              marginTop: 12,
-              marginLeft: 4,
-            }}
-          >
+          <span className="ml-[4px] mt-[12px] flex justify-center items-center text-[7px] h-[7px] p-[5px] w-[7px] border-[1px] rounded-[50px]">
             {iconHeading}
           </span>
         )}
       </div>
-      <span className="font-Roboto text-[18px]/[30px] mt-4 opacity-70">
+      <div className="flex flex-col">
+      <span className="font-Roboto text-[18px]/[30px] mt-[8px] opacity-70 xms:text-[16px] xsm:mt-[8px]">
         {`${paragraph}`}
-        {isSecondParagraphPresent && <p className="mt-4">{secondParagraph}</p>}
+        {isSecondParagraphPresent && <p className="mt-4 xms:text-[16px]">{secondParagraph}</p>}
+        </span>
         <Image
           src={imageSource}
           alt="images"
           width={20}
           height={18}
-          className="mt-6"
+          className={`mt-[35px] ${imageClass}`}
         />
-      </span>
+        </div>
     </div>
   );
 };

@@ -28,7 +28,7 @@ module.exports = {
       },
       fontFamily: {
         Roboto: ["Roboto Mono", "monospace"],
-        Inter: ["Inter","monospace"],
+        Inter: ["Inter","Roboto Mono","monospace"],
       },
       screens: {
         'xxsm': {'min': '300px', 'max': '380px'},

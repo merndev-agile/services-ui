@@ -8,10 +8,12 @@ export default function Home() {
   return (
     <div className="w-screen h-screen">
       <Header menuLink="/menu" menuIcon="/icons/menu-icon.png" menuIconWidth={18} menuIconHeight={7}/>
+      <div className="w-full flex flex-col">
       <Services />
       <SlidingPanel />
       <EnvironmentStatement />
       <FAQ />
+      </div>
     </div>
   );
 }

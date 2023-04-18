@@ -83,11 +83,16 @@ export default function menu() {
               </Link>
             );
           })}
-          
+          <div className="flex flex-row items-center justify-between">
+            <span className="uppercase font-Roboto m-4 text-xl opacity-40">Pratform</span>
+            <span className="uppercase font-Roboto m-4 text-xl opacity-40">
+              Coming Soon{" "}
+            </span>
+          </div>
         </motion.div>
       </motion.div>
       <div className="h-[25vh] flex items-end">
-      <SlidingPanel classes="!my-0"/>
+        <SlidingPanel classes="!my-0" />
       </div>
     </motion.div>
   );
