@@ -25,9 +25,9 @@ export const Services: React.FC = () => {
       exit={{ opacity: 0 }}
       initial="initial"
       animate="animate"
-      className="text-white flex justify-center mx-[4rem] xl:mt-[60px] xsm:mx-6 md:mx-[4rem] xsm:mt-[60px] 2xl:mt-[60px] 2xl:mx-[8rem]" 
+      className="text-white flex justify-center mx-[4rem] xl:mt-[60px] xsm:mx-6 md:mx-[4rem] xsm:mt-[60px] 2xl:mt-[60px] 2xl:mx-[8rem] lg:mt-[60px]" 
     >
-      <motion.div variants={fadeInUp} className="flex-col self-start w-full">
+      <motion.div variants={fadeInUp} className="flex-col self-start">
         <span className="text-[120px] xsm:text-[45px] font-Inter font-bold 2xl:text-[120px]">
           {text.services}
         </span>

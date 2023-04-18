@@ -6,7 +6,7 @@ export const EnvironmentStatement: React.FC = () => {
     <div
       className="text-white flex justify-center mx-[4rem] mt-[80px] xsm:mx-6 md:mx-[4rem]"
     >
-      <div className="flex-col self-start w-full">
+      <div className="flex-col self-start">
         <span className="text-[120px] font-Inter font-bold uppercase xsm:text-[45px] xxsm:!text-[45px] leading-[110px] xsm:leading-[41px] xxsm:!leading-[41px] md:text-[100px]">
           {text.environmentStatment}
         </span>

@@ -30,7 +30,7 @@ export const TextComponent = ({
 }: Props) => {
   return (
     <div
-      className={`flex flex-col items-center w-[60%] xsm:w-[100%] ${classValues}`}
+      className={`flex flex-col items-center xsm:w-[100%] ${classValues}`}
       style={{
         ...styles,
       }}
