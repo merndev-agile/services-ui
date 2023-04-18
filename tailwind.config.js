@@ -44,13 +44,13 @@ module.exports = {
         // => @media (min-width: 768px and max-width: 1023px) { ... }
   
         'lg': {'min': '1024px', 'max': '1349px'},
-        // => @media (min-width: 1024px and max-width: 1279px) { ... }
+        // => @media (min-width: 1024px and max-width: 1349px) { ... }
   
-        'xl': {'min': '1350px', 'max': '1535px'},
-        // => @media (min-width: 1280px and max-width: 1535px) { ... }
+        'xl': {'min': '1350px', 'max': '1650px'},
+        // => @media (min-width: 1350px and max-width: 1650px) { ... }
   
-        '2xl': {'min': '1536px'},
-        // => @media (min-width: 1536px) { ... }
+        '2xl': {'min': '1651px'},
+        // => @media (min-width: 1651px) { ... }
       },
     },
   },
