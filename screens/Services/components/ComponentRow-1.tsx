@@ -12,14 +12,14 @@ export const ComponentRow1 = () => (
         iconHeading="R"
         imageSource="/icons/co-nodes.png"
         paragraph={text.coNodesParagraph}
-        classValues={"xsm: mb-16 w-[450px] lg:w-[350px]"}
+        classValues={"xsm: mb-16 w-[450px] lg:w-[350px] md:w-[45%]"}
       />
       <TextComponent
         heading={text.managedNodes}
         hasIconHeading={false}
         imageSource="/icons/managed-nodes.png"
         paragraph={text.managedNodesParagraph}
-        classValues={"xl:ml-[25px] xsm:ml-0 xsm:mb-24 md:ml-[20px] w-[410px] 2xl:w-[410px] 2xl: ml-[30px] lg:w-[310px]"}
+        classValues={"xl:ml-[25px] xsm:ml-0 xsm:mb-24 md:ml-[20px] md:w-[45%] w-[410px] 2xl:w-[410px] 2xl: ml-[30px] lg:w-[310px]"}
       />
     </div>
     <div className="xl:ml-[30px] xsm:w-[95%] md:flex md:flex-row md:w-full 2xl:ml-[30px] lg:ml-[30px]">
