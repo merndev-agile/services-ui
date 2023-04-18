@@ -11,7 +11,6 @@ export const ComponentRow2 = () => (
       height={410}
       style={{
         height: "fit-content",
-        borderRadius: 8,
       }}
     />
     <TextComponent
